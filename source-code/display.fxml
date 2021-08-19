@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" style="-fx-background-color: rgb(125,125,125);" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PTMS.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Pane layoutX="5.0" layoutY="5.0" prefHeight="711.0" prefWidth="1275.0" style="-fx-background-color: rgb(75,75,75);" />
+            <HBox prefHeight="720.0" prefWidth="1286.0">
+               <children>
+                  <VBox prefHeight="720.0" prefWidth="365.0">
+                     <children>
+                        <Text fill="WHITE" stroke="#909090" strokeType="OUTSIDE" strokeWidth="2.0" text="Picture to Minecraft Skin" wrappingWidth="349.13671875">
+                           <font>
+                              <Font name="Yu Gothic Regular" size="29.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="15.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Accordion prefWidth="212.0" />
+                        <Pane prefHeight="29.0" prefWidth="253.0" />
+                        <VBox prefHeight="635.0" prefWidth="365.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#openImage" text="Open Image" textAlignment="CENTER">
+                                 <VBox.margin>
+                                    <Insets left="20.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <ImageView fx:id="uploadedImage" fitHeight="251.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <HBox prefHeight="26.0" prefWidth="325.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Red:" wrappingWidth="65.13671875">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="redVal" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="15.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets top="15.0" />
+                                       </padding>
+                                    </HBox>
+                                    <HBox prefHeight="26.0" prefWidth="325.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Green:" wrappingWidth="65.13671875">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="greenVal" />
+                                       </children>
+                                       <padding>
+                                          <Insets top="15.0" />
+                                       </padding>
+                                    </HBox>
+                                    <HBox prefHeight="26.0" prefWidth="325.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blue:" wrappingWidth="65.13671875">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="blueVal" />
+                                       </children>
+                                       <padding>
+                                          <Insets top="15.0" />
+                                       </padding>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <CheckBox fx:id="doubleSidedOption" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" text="Double Sided">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                              </CheckBox>
+                              <CheckBox fx:id="projectLimbsOption" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" text="Project Limbs">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </CheckBox>
+                              <Text fill="#d0d0d0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double Sided will overwrite project limbs" textAlignment="CENTER" wrappingWidth="203.13671875" />
+                              <VBox alignment="TOP_CENTER" prefHeight="114.0" prefWidth="325.0">
+                                 <children>
+                                    <HBox prefHeight="33.0" prefWidth="325.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="File Name:" wrappingWidth="118.13671875">
+                                             <font>
+                                                <Font name="Yu Gothic Regular" size="22.0" />
+                                             </font>
+                                          </Text>
+                                          <TextField fx:id="fileName" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <Text fx:id="errorText" fill="#ff6464" strokeType="OUTSIDE" strokeWidth="0.0">
+                                       <VBox.margin>
+                                          <Insets top="5.0" />
+                                       </VBox.margin>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Button mnemonicParsing="false" onAction="#GenerateSkin" text="Generate Skin" textAlignment="CENTER">
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </Button>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets left="40.0" />
+                           </padding>
+                        </VBox>
+                        <Pane prefHeight="29.0" prefWidth="253.0" />
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="720.0" prefWidth="361.0" />
+                  <Pane prefHeight="680.0" prefWidth="350.0" style="-fx-background-color: rgb(125,125,125);">
+                     <children>
+                        <ImageView fx:id="previewImage" fitHeight="667.0" fitWidth="332.0" layoutX="10.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Pane>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
