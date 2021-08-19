@@ -4,7 +4,7 @@
 ### About this program
 
 This is a java program that uses JavaFX, I made this because I was looking for something that I could make to refresh my knowledge of JavaFX and also some basic image editing.  
-It was made using `jdk-10.0.2`
+It was made using `jdk-16.0.2` and `javafx-sdk-16`
 
 #### Features
 
