@@ -53,11 +53,11 @@ All the source code is available, feel free to do whatever you'd like with it!
 | [exampleImage3]   |[exampleImage3Result]|
 
 
-[exampleImage1]: ./public/exampleImage1
-[exampleImage1Result]: ./public/exampleResult1
+[exampleImage1]: ./.public/exampleImage1
+[exampleImage1Result]: ./.public/exampleResult1
 
-[exampleImage2]: ./public/exampleImage2
-[exampleImage2Result]: ./public/exampleImage2
+[exampleImage2]: ./.public/exampleImage2
+[exampleImage2Result]: ./.public/exampleImage2
 
-[exampleImage3]: ./public/exampleImage3
-[exampleImage3Result]: ./public/exampleImage3
+[exampleImage3]: ./.public/exampleImage3
+[exampleImage3Result]: ./.public/exampleImage3
