@@ -48,9 +48,9 @@ All the source code is available, feel free to do whatever you'd like with it!
 
 | Example Image     | Result              |
 | -------------     |:-------------:      |
-| ![exampleImage1](/.public/example1.png "Skin Preview1")|![exampleImage1Result](/.public/example1Result.png "Skin Preview1 Result")|
-| ![exampleImage2](/.public/example2.png "Skin Preview2")|![exampleImage2Result](/.public/example2Result.png "Skin Preview2 Result")|
-| ![exampleImage3](/.public/example3.png "Skin Preview3")|![exampleImage3Result](/.public/example3Result.png "Skin Preview3 Result")|
+| ![exampleImage1](/.public/exampleImage1.png "Skin Preview1")|![exampleImage1Result](/.public/example1Result.png "Skin Preview1 Result")|
+| ![exampleImage2](/.public/exampleImage2.png "Skin Preview2")|![exampleImage2Result](/.public/example2Result.png "Skin Preview2 Result")|
+| ![exampleImage3](/.public/exampleImage3.png "Skin Preview3")|![exampleImage3Result](/.public/example3Result.PNG "Skin Preview3 Result")|
 
 
 
