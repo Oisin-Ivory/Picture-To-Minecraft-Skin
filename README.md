@@ -27,11 +27,11 @@ If the smaller image is warped or off, you may have to resize it for the best re
 1. Now that the skin is loaded, you can have 3 options that you can use
     1. Set the RGB values of the skin, these will be the back, sides, tops and bottoms of the limbs that are not the front faces.  
     (any illegal values such as a letter, a number that is less than 0 or greater than 255, will default to 128 [the average of 0 and 255].)
-    1.Double sided can be selected to make the image appear on the back aswell as the front.
-    1.Project limbs will project the front side of the body parts to be projected onto all sides of their limbs, body and head.   
+    1. Double sided can be selected to make the image appear on the back aswell as the front.
+    1. Project limbs will project the front side of the body parts to be projected onto all sides of their limbs, body and head.   
     An example would be having a horizontal stripe on an arm, it will be projected onto all sides of said arm  
     resulting in a complete band around the arm.
-    1.An important note, both double sided and projected can be used at once, the double sided will overwrite the projected     face.
+    1. An important note, both double sided and projected can be used at once, the double sided will overwrite the projected     face.
 1.Once you've configured your options you can choose to name the skin. The file will be written to the desktop under that name.  
 If no name is provided it will be named `output_skin.png`.
    
