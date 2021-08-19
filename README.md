@@ -44,7 +44,10 @@ I recommend changing the transparent areas to a desired colour, then using it.
 ### The code
 All the source code is available, feel free to do whatever you'd like with it!
 
-### Example
+### User Interface
+
+![ui.png](/.public/ui.png "User Interface")
+### Examples
 
 | Example Image     | Result              |
 | -------------     |:-------------:      |
