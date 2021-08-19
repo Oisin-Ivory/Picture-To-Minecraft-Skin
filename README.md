@@ -14,8 +14,8 @@ While the main functionality of the program is to essentially paste an image ont
     * This allows you to paste the image on the back of the skin as well.
     
 * Project Limbs
-    * This will project the front of the arms, legs, head and body to the other sides of them and also fill in the tops and bottoms of the characters.  
-    This can be quite useful for photo-bashing a skin together, then editing it in an external program.
+    * This will project the front of the arms, legs, head and body to the other sides of them and also fill in the tops and bottoms of the character's legs, arms, body and head.  
+    This can be quite useful for photo-bashing a skin together, then adding a face and more details in an external program.
 
 
 ### How to use
