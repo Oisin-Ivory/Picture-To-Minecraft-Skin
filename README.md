@@ -32,13 +32,13 @@ If the smaller image is warped or off, you may have to resize it for the best re
     An example would be having a horizontal stripe on an arm, it will be projected onto all sides of said arm  
     resulting in a complete band around the arm.
     1. An important note, both double sided and projected can be used at once, the double sided will overwrite the projected     face.
-1.Once you've configured your options you can choose to name the skin. The file will be written to the desktop under that name.  
+1. Once you've configured your options you can choose to name the skin. The file will be written to the desktop under that name.  
 If no name is provided it will be named `output_skin.png`.
    
 **Things to keep in mind**  
 * The characters default size is 16px wide and 32px high, so try use an image that has a ratio of 1:2.
 * If there is a specific area of an image you want to use, make sure that it is as large as possible, that way you'll get the best results.
-*Transparent images will not be transparent.It will process them but the transparent areas will preview as black and will output as white.  
+* Transparent images will not be transparent.It will process them but the transparent areas will preview as black and will output as white.  
 I recommend changing the transparent areas to a desired colour, then using it.
 
 ### The code
